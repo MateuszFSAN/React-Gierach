@@ -17,6 +17,7 @@ function App() {
         </a>
       </div>
       <h1>Adam Gierach</h1>
+      <h2>113867</h2>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
@@ -28,6 +29,25 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+      <a
+        href="https://www.facebook.com/adam.gierach.1"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{
+          position: 'fixed',
+          bottom: 0,
+          right: 0,
+          margin: '20px',
+          padding: '70px 100px',
+          borderRadius: '10px',
+          backgroundColor: 'blue',
+          color: 'white',
+          textDecoration: 'none',
+          fontSize: '3em'
+        }}
+      >
+        Mój Facebook
+      </a>
     </>
   )
 }
